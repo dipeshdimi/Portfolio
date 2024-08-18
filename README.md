@@ -1,6 +1,6 @@
 # Portfolio | Dipesh Mishra - [Live Deployment](https://portfolio-roan-kappa-74.vercel.app/)
 
-This project is a React-based responsive web application platform featurng my Portfolio as a Software Developer.
+This project is a React-based responsive web application platform featuring my Portfolio as a Software Developer.
 
 
 ## Live Demo
