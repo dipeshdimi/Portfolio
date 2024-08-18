@@ -24,16 +24,16 @@ const Timeline = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{
-                background: "#1868ae",
+                background: "#0047ab",
                 boxShadow: "0 4px 10px rgba(0, 0, 0, 0.2)",
                 color: "#ddd",
                 borderRadius: "12px",
               }}
               contentArrowStyle={{
-                borderRight: "7px solid #1868ae",
+                borderRight: "7px solid #0047ab",
               }}
               date="Jun 2024 - Jul 2024"
-              iconStyle={{ background: "#1868ae", color: "#fff" }}
+              iconStyle={{ background: "#0047ab", color: "#fff" }}
               icon={<CheckBadgeIcon />}
             >
               <h3 className="text-xl font-semibold">React Developer Intern</h3>
@@ -46,16 +46,16 @@ const Timeline = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               contentStyle={{
-                background: "#1d3c45",
+                background: "#004953",
                 boxShadow: "0 4px 10px rgba(0, 0, 0, 0.2)",
                 color: "#ddd",
                 borderRadius: "12px",
               }}
               contentArrowStyle={{
-                borderRight: "7px solid #1d3c45",
+                borderRight: "7px solid #004953",
               }}
               date="Oct 2020 - May 2024"
-              iconStyle={{ background: "#1d3c45", color: "#fff" }}
+              iconStyle={{ background: "#004953", color: "#fff" }}
               icon={<BackwardIcon />}
             >
               <h3 className="text-xl font-semibold">Student</h3>

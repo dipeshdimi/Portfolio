@@ -1,12 +1,13 @@
 import { Portfoio } from "../../data/data";
 
 const Portfolio = () => {
-  const handleClick = (liveLink?: string, githubLink?: string) => {
-    const url = liveLink || githubLink;
+  const handleClick = (url?: string) => {
     if (url) {
       window.open(url, "_blank");
     }
   };
+
+
 
   return (
     <div id="portfolio" className="bg-gray-900">
@@ -28,7 +29,7 @@ const Portfolio = () => {
             <div
               key={item.id}
               className="group relative p-6 bg-gray-800 rounded-lg shadow-lg transition-transform transform hover:scale-105 cursor-pointer"
-              onClick={() => handleClick(item.liveLink, item.githubLink)}
+              onClick={() => handleClick(item.liveLink || item.githubLink)}
             >
               <div className="overflow-hidden">
                 <img
@@ -41,24 +42,20 @@ const Portfolio = () => {
                 <span className="text-teal-400 text-lg">{item.stack}</span>
                 <div className="flex gap-4">
                   {item.liveLink && (
-                    <a
-                      href={item.liveLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <button
+                      onClick={() => handleClick(item.liveLink)}
                       className="inline-block px-4 py-2 bg-teal-500 text-white rounded hover:bg-teal-600 transition-colors"
                     >
                       Live Link
-                    </a>
+                    </button>
                   )}
                   {item.githubLink && (
-                    <a
-                      href={item.githubLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <button
+                      onClick={() => handleClick(item.githubLink)}
                       className="inline-block px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700 transition-colors"
                     >
                       GitHub Link
-                    </a>
+                    </button>
                   )}
                 </div>
               </div>
@@ -66,6 +63,7 @@ const Portfolio = () => {
                 {item.title}
               </h3>
               <p className="text-gray-300 text-left">{item.description}</p>
+              {item.id===3 && <span className="block text-gray-500 text-sm text-left mt-2">*Mounting may take a bit since it's hosted on OnRender's free tier.</span>}
             </div>
           ))}
         </div>

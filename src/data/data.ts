@@ -121,7 +121,7 @@ export const Portfoio: PortfolioInterface[] = [
   {
     id: 3,
     image: portfolioImg3,
-    title: "Gitfolio Tracker",
+    title: "Gitfolio Tracker*",
     stack: "Full Stack Project",
     liveLink: "https://gitfolio-tracker.onrender.com/",
     githubLink: "https://github.com/dipeshdimi/Gitfolio-Tracker",
