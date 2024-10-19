@@ -24,6 +24,48 @@ const Timeline = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{
+                background: "#000",
+                boxShadow: "0 4px 10px rgba(0, 0, 0, 0.2)",
+                color: "#ddd",
+                borderRadius: "12px",
+              }}
+              contentArrowStyle={{
+                borderRight: "7px solid #000",
+              }}
+              date="Sep 2024 - Present"
+              iconStyle={{ background: "#000", color: "#fff" }}
+              icon={<CheckBadgeIcon />}
+            >
+              <h3 className="text-xl font-semibold">Web Developer</h3>
+              <h4 className="text-lg font-medium">BrightR Club (ScrapLabs)</h4>
+              <p>
+                Working on maintaining and enhancing the company website using React, Tailwind CSS, and Redux Toolkit and implementing API integrations to extend website functionality and improve user experience.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{
+                background: "#b20238",
+                boxShadow: "0 4px 10px rgba(0, 0, 0, 0.2)",
+                color: "#ddd",
+                borderRadius: "12px",
+              }}
+              contentArrowStyle={{
+                borderRight: "7px solid #b20238",
+              }}
+              date="Jul 2024 - Sep 2024"
+              iconStyle={{ background: "#b20238", color: "#fff" }}
+              icon={<CheckBadgeIcon />}
+            >
+              <h3 className="text-xl font-semibold">Full Stack Engineer (Contractual)</h3>
+              <h4 className="text-lg font-medium">AI Art War</h4>
+              <p>
+                Developed the company website with MERN stack and Next.js for server-side rendering and static site generation and integrated Stripe for secure payments, Tailwind CSS for responsive UI, and implemented user authentication (using JWT for Token Management, Zod for form validation, and Resend for email verification) & API integrations.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{
                 background: "#0047ab",
                 boxShadow: "0 4px 10px rgba(0, 0, 0, 0.2)",
                 color: "#ddd",
