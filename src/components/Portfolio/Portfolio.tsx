@@ -7,8 +7,6 @@ const Portfolio = () => {
     }
   };
 
-
-
   return (
     <div id="portfolio" className="bg-gray-900">
       <div
@@ -28,7 +26,7 @@ const Portfolio = () => {
           {Portfoio.map((item) => (
             <div
               key={item.id}
-              className="group relative p-6 bg-gray-800 rounded-lg shadow-lg transition-transform transform hover:scale-105 cursor-pointer"
+              className="group relative p-6 bg-gray-800 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 cursor-pointer"
               onClick={() => handleClick(item.liveLink || item.githubLink)}
             >
               <div className="overflow-hidden">

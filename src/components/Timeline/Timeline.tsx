@@ -36,11 +36,12 @@ const Timeline = () => {
               iconStyle={{ background: "#000", color: "#fff" }}
               icon={<CheckBadgeIcon />}
             >
-              <h3 className="text-xl font-semibold">Web Developer</h3>
-              <h4 className="text-lg font-medium">BrightR Club (ScrapLabs)</h4>
-              <p>
-                Working on maintaining and enhancing the company website using React, Tailwind CSS, and Redux Toolkit and implementing API integrations to extend website functionality and improve user experience.
-              </p>
+              <h3 className="text-xl font-semibold underline">Web Developer</h3>
+              <h4 className="text-lg font-medium italic">BrightR Club (ScrapLabs)</h4>
+              <ul className="list-disc ml-4 mt-2">
+                <li>Revamped the company website towards a fresh look using React, Tailwind CSS, and Redux Toolkit.</li>
+                <li>Implemented API integrations & redesigns to improve site functionality and user experience across multiple platforms, including customer, admin and delivery side applications.</li>
+              </ul>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -57,11 +58,12 @@ const Timeline = () => {
               iconStyle={{ background: "#b20238", color: "#fff" }}
               icon={<CheckBadgeIcon />}
             >
-              <h3 className="text-xl font-semibold">Full Stack Engineer (Contractual)</h3>
-              <h4 className="text-lg font-medium">AI Art War</h4>
-              <p>
-                Developed the company website with MERN stack and Next.js for server-side rendering and static site generation and integrated Stripe for secure payments, Tailwind CSS for responsive UI, and implemented user authentication (using JWT for Token Management, Zod for form validation, and Resend for email verification) & API integrations.
-              </p>
+              <h3 className="text-xl font-semibold underline">Full Stack Engineer (Contractual)</h3>
+              <h4 className="text-lg font-medium italic">AI Art War</h4>
+              <ul className="list-disc ml-4 mt-2">
+                <li>Developed the company website with MERN stack and Next.js for server-side rendering and static site generation</li>
+                <li>Integrated Stripe for secure payments, Tailwind CSS for responsive UI, and implemented user authentication (using JWT for Token Management, Zod for form validation, and Resend for email verification) & API integrations.</li>
+              </ul>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -78,11 +80,12 @@ const Timeline = () => {
               iconStyle={{ background: "#0047ab", color: "#fff" }}
               icon={<CheckBadgeIcon />}
             >
-              <h3 className="text-xl font-semibold">React Developer Intern</h3>
-              <h4 className="text-lg font-medium">TechOn Pixel</h4>
-              <p>
-                Contributed to the development of National People’s Party (NPP)’s official website and maintained the company's website using Next.js, TypeScript, and SCSS.
-              </p>
+              <h3 className="text-xl font-semibold underline">React Developer Intern</h3>
+              <h4 className="text-lg font-medium italic">TechOn Pixel</h4>
+              <ul className="list-disc ml-4 mt-2">
+                <li>Contributed to the development of National People’s Party (NPP)’s official website using Next.js and TypeScript.</li>
+                <li>Translated Figma designs into interactive UI components using Mantine & SCSS/Sass on company & client applications.</li>
+              </ul>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -100,8 +103,8 @@ const Timeline = () => {
               iconStyle={{ background: "#004953", color: "#fff" }}
               icon={<BackwardIcon />}
             >
-              <h3 className="text-xl font-semibold">Student</h3>
-              <h4 className="text-lg font-medium">Indian Institute of Information Technology (IIIT), Dharwad</h4>
+              <h3 className="text-xl font-semibold underline">Student</h3>
+              <h4 className="text-lg font-medium italic">Indian Institute of Information Technology (IIIT), Dharwad</h4>
               <p>Bachelor of Technology (B.Tech) in Computer Science & Engineering (CSE)</p>
             </VerticalTimelineElement>
 
@@ -120,8 +123,8 @@ const Timeline = () => {
               iconStyle={{ background: "#000", color: "#fff" }}
               icon={<BackwardIcon />}
             >
-              <h3 className="text-xl font-semibold">Student</h3>
-              <h4 className="text-lg font-medium">Children's Academy, Ghaziabad</h4>
+              <h3 className="text-xl font-semibold underline">Student</h3>
+              <h4 className="text-lg font-medium italic">Central Board of Secondary Education (CBSE)</h4>
               <p>XII Standard [CBSE] - 95.2%</p>
             </VerticalTimelineElement>
 
@@ -140,8 +143,8 @@ const Timeline = () => {
               iconStyle={{ background: "#b20238", color: "#fff" }}
               icon={<BackwardIcon />}
             >
-              <h3 className="text-xl font-semibold">Student</h3>
-              <h4 className="text-lg font-medium">Children's Academy, Ghaziabad</h4>
+              <h3 className="text-xl font-semibold underline">Student</h3>
+              <h4 className="text-lg font-medium italic">Central Board of Secondary Education (CBSE)</h4>
               <p>X Standard [CBSE] - 9.6 CGPA</p>
             </VerticalTimelineElement>
 

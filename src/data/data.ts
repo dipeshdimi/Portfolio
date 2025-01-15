@@ -8,8 +8,8 @@ import {
 
 import portfolioImg1 from "/portfolio/1.png";
 import portfolioImg2 from "/portfolio/2.png";
-import portfolioImg3 from "/portfolio/3.gif";
-import portfolioImg4 from "/portfolio/4.png";
+import portfolioImg3 from "/portfolio/3.png";
+import portfolioImg4 from "/portfolio/4.gif";
 import portfolioImg5 from "/portfolio/5.png";
 import portfolioImg6 from "/portfolio/6.png";
 import portfolioImg7 from "/portfolio/7.png";
@@ -18,6 +18,7 @@ import portfolioImg9 from "/portfolio/9.png";
 import portfolioImg10 from "/portfolio/10.png";
 import portfolioImg11 from "/portfolio/11.png";
 import portfolioImg12 from "/portfolio/12.png";
+import portfolioImg13 from "/portfolio/13.png";
 
 export interface NavbarInterface {
   name: string;
@@ -105,22 +106,30 @@ export const Portfoio: PortfolioInterface[] = [
   {
     id: 1,
     image: portfolioImg1,
+    title: "BrightR Club",
+    stack: "Web Development Project",
+    liveLink: "https://www.brightr.club",
+    description: "BrightR Pixel's website I completely redesigned while working as a fulltime employee."
+  },
+  {
+    id: 2,
+    image: portfolioImg2,
     title: "TechOn Pixel",
     stack: "Front End Project",
     liveLink: "https://www.techonpixel.com/about",
     description: "TechOn Pixel's website I worked on while interning there. Built using Next.js, Typescript & SCSS."
   },
   {
-    id: 2,
-    image: portfolioImg2,
+    id: 3,
+    image: portfolioImg3,
     title: "National People's Party",
     stack: "Front End Project",
     liveLink: "https://npp-self.vercel.app/en-US/home",
     description: "Client project during my internship at TechOn Pixel - National People's Party (NPP). Built using Next.js, Typescript & SCSS."
   },  
   {
-    id: 3,
-    image: portfolioImg3,
+    id: 4,
+    image: portfolioImg4,
     title: "Gitfolio Tracker*",
     stack: "Full Stack Project",
     liveLink: "https://gitfolio-tracker.onrender.com/",
@@ -128,8 +137,8 @@ export const Portfoio: PortfolioInterface[] = [
     description: "Track, explore, and manage GitHub profiles and repositories (built using MERN stack)."
   },
   {
-    id: 4,
-    image: portfolioImg4,
+    id: 5,
+    image: portfolioImg5,
     title: "Real-Time Chat Application",
     stack: "Full Stack Project",
     liveLink: "https://chat-application-m55y.vercel.app/",
@@ -137,8 +146,8 @@ export const Portfoio: PortfolioInterface[] = [
     description: "A chat application built using React, Firebase (Firestore database), CSS, and EmailJS (for OTP verification)."
   },
   {
-    id: 5,
-    image: portfolioImg5,
+    id: 6,
+    image: portfolioImg6,
     stack: "Machine Learning Project",
     title: "Credit Card Fraud Detection System",
     liveLink: "https://colab.research.google.com/drive/1B1IJKPkXi4PAGA9NjJeBSmEQlck9u55-?usp=sharing",
@@ -146,8 +155,8 @@ export const Portfoio: PortfolioInterface[] = [
     description: "A logistic regression based machine learning model for detecting fraudulent credit card transactions."
   },
   {
-    id: 6,
-    image: portfolioImg6,
+    id: 7,
+    image: portfolioImg7,
     title: "E-Commerce Store",
     stack: "Front End Project",
     liveLink: "https://e-commerce-roan-nu.vercel.app/",
@@ -155,8 +164,8 @@ export const Portfoio: PortfolioInterface[] = [
     description: "Simple E-Commerce web app fetching products from FakeStoreAPI, featuring search, category filtering, and responsive design for seamless user interaction."
   },
   {
-    id: 7,
-    image: portfolioImg7,
+    id: 8,
+    image: portfolioImg8,
     title: "Text Utility Application",
     stack: "Front End Project",
     liveLink: "https://text-utility-application.vercel.app/",
@@ -164,8 +173,8 @@ export const Portfoio: PortfolioInterface[] = [
     description: "Text Utility Application built with React & Bootstrap5"
   },
   {
-    id: 8,
-    image: portfolioImg8,
+    id: 9,
+    image: portfolioImg9,
     title: "Wellness Retreat",
     stack: "Front End Project",
     liveLink: "https://wellness-retreat-rust.vercel.app/",
@@ -173,16 +182,16 @@ export const Portfoio: PortfolioInterface[] = [
     description: "A React-based responsive web application platform for booking wellness retreats, featuring options to filter retreats by date and type, and a search functionality to find specific retreats."
   },
   {
-    id: 9,
-    image: portfolioImg9,
+    id: 10,
+    image: portfolioImg10,
     title: "Message Board",
     stack: "Full Stack Project",
     githubLink: "https://github.com/dipeshdimi/Message-Board",
     description: "A message board web application for displaying and posting notices, with three API endpoints - 2 GET & 1 POST."
   },
   {
-    id: 10,
-    image: portfolioImg10,
+    id: 11,
+    image: portfolioImg11,
     title: "Resume Builder Application",
     stack: "Front End Project",
     liveLink: "https://resume-builder-application.vercel.app/",
@@ -190,8 +199,8 @@ export const Portfoio: PortfolioInterface[] = [
     description: "Resume Builder Web Application in React.js"
   },
   {
-    id: 11,
-    image: portfolioImg11,
+    id: 12,
+    image: portfolioImg12,
     title: "Telegram UI Clone",
     stack: "Front End Project",
     liveLink: "https://telegram-beyond-chats.vercel.app/",
@@ -199,8 +208,8 @@ export const Portfoio: PortfolioInterface[] = [
     description: "A React-based web application that simulates a responsive messaging interface similar to Telegram."
   },
   {
-    id: 12,
-    image: portfolioImg12,
+    id: 13,
+    image: portfolioImg13,
     title: "URL Shortener Service",
     stack: "Back End Project",
     githubLink: "https://github.com/dipeshdimi/URLShortener",

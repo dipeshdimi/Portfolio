@@ -17,7 +17,7 @@ const Icon = ({
       {item1 && (
         <div className="">
           <p
-            className={`uppercase mt-8 lg:mt-30 mb-8 ${
+            className={`uppercase mb-8 ${
               title1 ? "block" : "hidden"
             }`}
           >
@@ -39,7 +39,7 @@ const Icon = ({
       {item2 && (
         <div>
           <p
-            className={`uppercase mt-8 lg:mt-30 mb-8 ${
+            className={`uppercase mb-8 ${
               title2 ? "block" : "hidden"
             }`}
           >
