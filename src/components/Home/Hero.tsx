@@ -5,7 +5,7 @@ import Icon from "./Icon";
 const Hero = () => {
   return (
     <div id="hero" className="bg-neutral-900">
-      <div className="max-w-7xl mx-auto w-full px-4 lg:px-8 xl:px-16">
+      <div className="max-w-7xl mx-auto w-full px-6 lg:px-8 xl:px-16">
         <div className="flex flex-col-reverse md:flex-row justify-between pt-6 lg:pt-12 xl:pt-16 gap-4 lg:gap-8 xl:gap-10">
           <div className="pt-5 md:pt-10">
             <h5 className="text-neutral-400">🖐️ WELCOME TO MY WEBSITE</h5>
@@ -28,12 +28,12 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="flex items-start md:pt-20">
+          <div className="flex items-start md:pt-16">
             <img src={dipesh} className="px-[5%] md:px-0 rounded-full lg:max-w-[350px] md:max-w-[300px]" />
           </div>
         </div>
 
-        <div className="flex flex-wrap justify-between items-start gap-8 md:items-center text-neutral-400 border-b border-black pb-10 w-full">
+        <div className="flex flex-wrap justify-between items-start gap-8 md:items-center text-neutral-400 border-b border-black pb-10 w-full mt-0 lg:mt-8 pr-0 md:pr-5">
           <Icon item1 title1 />
           <Icon item2 title2 />
         </div>
