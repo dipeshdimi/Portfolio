@@ -61,7 +61,7 @@ const Portfolio = () => {
                 {item.title}
               </h3>
               <p className="text-gray-300 text-left">{item.description}</p>
-              {item.id===3 && <span className="block text-gray-500 text-sm text-left mt-2">*Mounting may take a bit since it's hosted on OnRender's free tier.</span>}
+              {item.id===4 && <span className="block text-gray-500 text-sm text-left mt-2">*Mounting may take a bit since it's hosted on OnRender's free tier.</span>}
             </div>
           ))}
         </div>
