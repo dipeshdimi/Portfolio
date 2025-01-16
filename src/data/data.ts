@@ -108,8 +108,8 @@ export const Portfoio: PortfolioInterface[] = [
     image: portfolioImg1,
     title: "BrightR Club",
     stack: "Web Development Project",
-    liveLink: "https://www.brightr.club",
-    description: "BrightR Pixel's website I completely redesigned while working as a fulltime employee."
+    liveLink: "https://brightr.club/",
+    description: "BrightR Club's website I completely redesigned while working as a fulltime employee."
   },
   {
     id: 2,
