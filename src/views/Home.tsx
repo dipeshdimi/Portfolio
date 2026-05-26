@@ -5,6 +5,7 @@ import Portfolio from "../components/Portfolio/Portfolio";
 import Timeline from "../components/Timeline/Timeline";
 import Skills from "../components/Skills/skills";
 import CancellationRefundPolicy from "../components/Refund/Refund";
+import TermsOfUse from "../components/Terms/Terms";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Timeline />
       <Contact />
       <CancellationRefundPolicy />
+      <TermsOfUse />
     </>
   );
 };
